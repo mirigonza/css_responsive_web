@@ -1,0 +1,44 @@
+body{
+    background-color: aquamarine;
+}
+
+.menu{
+    list-style: none;
+    align-items: center;
+    background-color: black;
+    width: 30%;
+    padding: 30px;
+    margin: auto;
+
+}
+
+.menu li a{
+    padding: 30px;
+    display: flex;
+    justify-content: space-arround;
+   
+}
+
+.menu li{
+    display: inline-block;
+}
+
+img{
+    width: 30px;
+}
+
+.contenedor{
+    display: flex;
+    padding: 50px;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+
+.contenedor div{
+    width: 250px;
+    height: 250px;
+    background-color: pink;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+}

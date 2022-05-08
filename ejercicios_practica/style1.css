@@ -1,0 +1,15 @@
+.contenedor{
+    display: flex;
+    padding: 50px;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+
+.contenedor div{
+    width: 250px;
+    height: 250px;
+    background-color: pink;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+}
